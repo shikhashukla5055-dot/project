@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #outer{
+            min-height: 800px;
+            width: 1500px;
+           /* border: 2px solid black;*/
+        }
+        #logo{
+            height: 60px;
+            width: 1500px;
+            border-bottom: 2px solid rgb(231, 230, 230);
+            box-sizing: border-box;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 10px;
+
+
+        }
+        #logo div:nth-child(2){
+            height: 60px;
+            width: 400px;
+            
+            float: left;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 10px 25px;
+            box-sizing: border-box;
+            
+        }
+        #logo div input{
+            height: 30px;
+            width: 500px;
+            margin-top: 15px;
+            border-radius: 10px;
+            border: none;
+            border: 2px solid rgba(128,128,128,.5);
+            background-color: rgb(236, 236, 236);
+            padding-left: 30px;
+            box-sizing: border-box;
+            float: left;
+        }
+        #logo button{
+            height: 40px;
+            width: 150px;
+            font-weight: bold;
+            font-size: 16px;
+            background-color: rgb(213, 212, 212);
+            border: none;
+            margin-top: 10px;
+            color: white;
+            border-radius: 10px;
+        }
+        #top{
+            height: 100px;
+            width: 1500px;
+           border: 1px solid black;
+            color:yellow ;
+            font-size: 30px;
+            padding-top: 30px;
+            box-sizing: border-box;   
+        }
+        #top1{
+            height: 150px;
+            width: 1450px;
+            margin:10px 20px;
+            background-color: green;
+            background: url(a5.jpg);
+           background-size: cover;
+            border-radius: 10px;
+            padding-left: 20px;
+            padding-top: 5px;
+            font-size: 30px;
+            color: white;
+        }
+        .top2{
+            height:350px;
+            width: 1500px;
+           
+        }
+        .a{
+            height: 250px;
+            width: 400px;
+            
+            float: left;
+            margin: 15px 5px;
+            padding-left: 30px;
+            margin-left: 20px;
+            border-radius: 20px;
+           background: url(a7.jpg);
+           background-size: cover;
+            font-size: 30px;
+            color: white;
+            padding-top: 30px; 
+
+        }
+        .b{
+            height: 250px;
+            width: 400px;
+            float: left;
+            margin: 15px 5px;
+            padding-left: 20px;
+            margin-left: 20px;
+            border-radius: 20px;
+           background: url(a4.jpg);
+           background-size: cover;
+            font-size: 30px;
+            padding-top: 30px;  
+        }
+        .c{
+            height: 250px;
+            width: 400px;
+            
+            float: left;
+            margin: 15px 5px;
+            padding-left: 20px;
+            margin-left: 20px;
+            border-radius: 20px;
+            background: url(a3.jpg);
+            background-size: cover;
+            font-size: 25px;
+            padding-top: 30px;  
+        }
+        .row{
+            height: 250px;
+            width: 1480px;
+           /* border: 1px solid black;*/
+            
+        }
+        .col{
+            height: 220px;
+            width: 130px;
+           /* border:1px solid black;*/
+            border-radius: 10px;
+            margin-top: 20px;
+            margin-left: 15px;
+            float: left;  
+        }
+        .col1{
+            height: 220px;
+            width: 130px;
+            /*border:1px solid black;*/
+            border-radius: 10px;
+            margin-top: 20px;
+            margin-left: 15px;
+            float: left;  
+        } 
+        .top3{
+            height: 30px;
+            width: 1450px;
+            /*border: 1px solid black;*/
+            margin: 10px 10px;
+            font-size: 30px;
+          padding:10px 10px;
+        }
+        .middle{
+            height: 350px;
+            width: 1500px;
+           /* border: 1px solid black;*/
+            
+        }
+        .col2{
+            height: 300px;
+            width: 205px;
+            border: 2px solid gray;
+            border-radius: 5px;
+            
+            margin: 10px 20px;
+            float: left;
+           
+        }
+        .top4{
+            height: 30px;
+            width: 1450px;
+           /* border: 1px solid black;*/
+            margin: 10px 10px;
+            font-size: 30px;
+          padding:10px 15px;
+        }
+        .left{
+            height: 400px;
+            width: 1500px;
+        }
+        .col3{
+            height: 350px;
+            width: 205px;
+            border: 2px solid gray;
+            border-radius: 5px;
+            
+            margin: 10px 20px;
+            float: left;
+           
+        }
+        .top5{
+            height: 30px;
+            width: 1450px;
+           /* border: 1px solid black;*/
+            margin: 10px 10px;
+            font-size: 30px;
+          padding:10px 15px;
+        }
+        .left1{
+            height: 400px;
+            width: 1500px;
+        }
+        .col4{
+            height: 350px;
+            width: 205px;
+            border: 2px solid gray;
+            border-radius: 5px;
+            
+            margin: 10px 20px;
+            float: left;
+           
+        }
+        .top6{
+            height: 30px;
+            width: 1450px;
+           /* border: 1px solid black;*/
+            margin: 10px 10px;
+            font-size: 30px;
+          padding:10px 15px;
+        }
+        .left2{
+            height: 400px;
+            width: 1500px;
+        }
+        .col5{
+            height: 350px;
+            width: 205px;
+            border: 2px solid gray;
+            border-radius: 5px;
+            
+            margin: 10px 20px;
+            float: left;
+           
+        }
+        .top7{
+            height: 30px;
+            width: 1450px;
+           /* border: 1px solid black;*/
+            margin: 10px 10px;
+            font-size: 30px;
+          padding:10px 15px;
+        }
+        .left3{
+            height: 400px;
+            width: 1500px;
+        }
+        .col6{
+            height: 350px;
+            width: 205px;
+            border: 2px solid gray;
+            border-radius: 5px;
+            
+            margin: 10px 20px;
+            float: left;
+           
+        }
+        .top8{
+            height: 30px;
+            width: 1450px;
+           /* border: 1px solid black;*/
+            margin: 10px 10px;
+            font-size: 30px;
+          padding:10px 15px;
+        }
+        .left4{
+            height: 400px;
+            width: 1500px;
+        }
+        .col7{
+            height: 350px;
+            width: 205px;
+            border: 2px solid gray;
+            border-radius: 5px;
+            
+            margin: 10px 20px;
+            float: left;
+           
+        }
+        .top9{
+            height: 30px;
+            width: 1450px;
+           /* border: 1px solid black;*/
+            margin: 10px 10px;
+            font-size: 30px;
+          padding:10px 15px;
+        }
+        .left5{
+            height: 400px;
+            width: 1500px;
+        }
+        .col8{
+            height: 350px;
+            width: 205px;
+            border: 2px solid gray;
+            border-radius: 5px;
+            
+            margin: 10px 20px;
+            float: left;
+           
+        }
+        .one{
+            height: 200px;
+            width: 300px;
+           
+           margin: 5px 5px;
+           padding-left: 10px;
+            margin: 20px;
+            box-sizing: border-box;
+            column-count: 3 ;
+            text-align: justify;
+            column-gap: 50px;
+            
+            float: left;
+           
+            
+        }
+        h2{
+          column-span: all;
+            
+  
+        }
+        
+       
+
+        
+    </style>
+</head>
+<body>
+    <div id="outer">
+       <div id="logo">
+            <div style="color: #f8cb47; float: left; font-size: 27px; font-weight: bold;height: 60px; width: 120px; text-align: center; border-right: 2px solid rgb(231, 230, 230); line-height: 60px;">blink<span style="color: #54b226;">it</span></div>
+            <div>Deliver in 8 minutes <br> <span style="font-weight: normal;  font-size: 12px; ">Faizabad Road, Near karamat M...</span>  <select style="border: none;"> <option></option></select></div>
+            <div>
+                <input type="search" placeholder="search 'sugar'">
+
+            </div>
+           <a style="color: black;" href="#"> <div style="height: 60px; width: 150px; text-align: center; line-height: 60px; float: left;">Login</div></a>
+           <button>My Cart</button>
+        </div>
+            
+        
+        <div id="top1">
+        <b>Paan corner</b><br>
+        Your favourite paan shop is now online<br>
+        <button style=" color: green; height: 30px; width: 100px; border-radius: 5px; border: none;">Shop Now</button></div>
+        <div class="top2">
+            
+            <div class="a"><b>Pharmacy at<br>your doorstep !</b><br>Cough syrups,pain <br>relief sprays & more<br><br>
+                <button style="height: 30px;width: 100px;border-radius: 5px;border: none;"><b>Order Now</b></button>
+            </div>
+            <div class="b"><b>Pet Care supplies <br>in minutes</b><br>Food, treats, <br>toys & more<br><br>
+                <button style="height: 30px;width: 100px;border-radius: 5px;border: none; background: black;color: white;"><b>Order Now</b></button>
+                
+            </div>
+            <div class="c"><b>No time for<br>a diaper run?</b> <br> Get baby care <br>essentials in minutes<br><br>
+             <button style="height: 30px;width: 100px;border-radius: 5px;border: none; background: black;color: white;"><b>Order Now</b></button> </div>   
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="b1.jpg" alt="" style="height: 150px; width: 110px; padding: 10px 10px; border: none;  border-radius: 5px;" ><b style="padding-left:10px; font-size: 20px;">Paan corner</b>
+            </div>
+            <div class="col">
+                <img src="b2.jpg" alt="" style="height: 150px; width: 110px; padding: 10px 10px; border: none;  border-radius: 5px;" ><b style="padding-left: 10px;font-size: 20px;">Bread Eggs</b>
+            </div>
+            <div class="col">
+                <img src="b3.jpg" alt="" style="height: 150px; width: 110px; padding: 10px 10px; border: none;border-radius: 5px;" ><b style="padding-left: 10px; font-size: 20px;">Fruits&Veg..</b>
+            </div>
+            <div class="col">
+                <img src="b4.jpg" alt="" style="height: 150px; width: 110px; padding: 10px 10px; border: none; border-radius: 5px;" ><b style="padding-left: 10px;font-size: 20px;">Cold &Juices</b>
+            </div>
+            <div class="col">
+                <img src="b5.jpg" alt="" style="height: 150px; width: 110px; padding: 10px 10px; border: none; border-radius: 5px;" ><b style="padding-left: 30px;font-size: 20px;">Snacks</b>
+            </div>
+            <div class="col">
+                <img src="b6.jpg" alt="" style="height: 150px; width: 110px; padding: 10px 10px; border: none;border-radius: 5px;" ><b style="padding-left: 20px;font-size: 20px;">Breakfast </b>
+            </div>
+            <div class="col">
+                <img src="b7.jpg" alt="" style="height: 150px; width: 110px; padding: 10px 10px; border: none; border-radius: 5px;" ><b style="padding-left: 10px;font-size: 20px;">sweet Tooth</b>
+            </div>
+            <div class="col">
+                <img src="b8.jpg" alt="" style="height: 150px; width: 110px; padding: 10px 10px; border: none; border-radius: 5px;" ><b style="padding-left: 30px;font-size: 20px;">Biscuits</b>
+            </div>
+            <div class="col">
+                <img src="b9.jpg" alt="" style="height: 150px; width: 110px; padding: 10px 10px; border: none; border-radius: 5px;" ><b style="padding-left: 20px;font-size: 20px;">Tea,coffee</b>
+            </div>
+            <div class="col">
+                <img src="b10.jpg" alt="" style="height: 150px; width: 110px; padding: 10px 10px; border: none; border-radius: 5px;" ><b style="padding-left: 30px;font-size: 20px;">Dal Rice</b>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col1">
+                <img src="c1.jpg" alt="" style="height: 150px; width: 110px; padding: 10px 10px;"><b style="padding-left: 20px;font-size: 20px;">Masala,oil</b>
+            </div>
+            <div class="col1">
+                <img src="c2.jpg" alt="" style="height: 150px; width: 110px; padding: 10px 10px;"><b style="padding-left: 30px;font-size: 20px;">Sauces</b>
+            </div>
+            <div class="col1">
+                <img src="c3.jpg" alt="" style="height: 150px; width: 110px; padding: 10px 10px;"><b style="padding-left: 30px;font-size: 20px;">Chicken</b>
+            </div>
+            <div class="col1">
+                <img src="c4.jpg" alt="" style="height: 150px; width: 110px; padding: 10px 10px;"><b style="padding-left: 30px;font-size: 20px;">organic</b>
+            </div>
+            <div class="col1">
+                <img src="c5.jpg" alt="" style="height: 150px; width: 110px; padding: 10px 10px;"><b style="padding-left: 20px;font-size: 20px;">Baby care</b>
+            </div>
+            <div class="col1">
+                <img src="c6.jpg" alt="" style="height: 150px; width: 110px; padding: 10px 10px;"><b style="padding-left: 30px;font-size: 20px;">Pharma</b>
+            </div>
+            <div class="col1">
+                <img src="c7.jpg" alt="" style="height: 150px; width: 110px; padding: 10px 10px;"><b style="padding-left: 30px;font-size: 20px;">Cleaning</b>
+            </div>
+            <div class="col1">
+                <img src="c8.jpg" alt="" style="height: 150px; width: 110px; padding: 10px 10px;"><b style="padding-left: 10px;font-size: 20px;">Home,Office</b>
+            </div>
+            <div class="col1">
+                <img src="c9.jpg" alt="" style="height: 150px; width: 110px; padding: 10px 10px;"><b style="padding-left: 10px;font-size: 20px;">Personal care</b>
+            </div>
+            <div class="col1">
+                <img src="c10.jpg" alt="" style="height: 150px; width: 110px; padding: 10px 10px;"><b style="padding-left: 30px;font-size: 20px;">Pet care</b>
+            </div>    
+        </div>
+        <div class="top3"><b>Dairy, Bread & Eggs</b></div>
+         <div class="middle">
+           <div class="col2">
+            <img src="d1.jpg" alt=""style="height:200px; width: 200px;">
+           <b style="padding-left: 10px;"> Amul Gold Full Cream<br><b style="padding-left: 10px;"> Milk</b></b><br><b style=" padding-left: 10px; color: gray;">500g</b><br><b style="padding-left: 10px;color: gray;">Rs.35</b>
+           <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+           </div> 
+           <div class="col2">
+            <img src="d2.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;"> Amul Taaza Toned milk<br><b style="padding-left: 10px;"> Milk</b></b><br><b style=" padding-left: 10px; color: gray;">500g</b><br><b style="padding-left: 10px;color: gray;">Rs.35</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+           </div> 
+           <div class="col2">
+            <img src="d3.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;"> Amul Sailted Butter<br><b style="padding-left: 10px;"> Milk</b></b><br><b style=" padding-left: 10px; color: gray;">500g</b><br><b style="padding-left: 10px;color: gray;">Rs.35</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+           </div> 
+           <div class="col2">
+            <img src="d4.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Amul Masti Cup Curd<br><b style="padding-left: 10px;"> Milk</b></b><br><b style=" padding-left: 10px; color: gray;">500g</b><br><b style="padding-left: 10px;color: gray;">Rs.35</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+           </div> 
+           <div class="col2">
+            <img src="d5.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Good Morning Malai Milk<br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">500g</b><br><b style="padding-left: 10px;color: gray;">Rs.35</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+           </div> 
+           <div class="col2">
+            <img src="d6.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;"> Amul Cow milk<br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">500g</b><br><b style="padding-left: 10px;color: gray;">Rs.35</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+           </div> 
+          
+         </div>  
+         <div class="top4"><b>Rolling Paper & tobacco</b></div> 
+         <div class="left">
+            <div class="col3">
+                 <img src="e1.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Brown Ripper Rolling<br><b style="padding-left: 10px;">Paper 32 Leaves+32..<br></b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">3 pack</b><br><b style="padding-left: 10px;color: gray;">Rs.45</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            </div>
+            <div class="col3">
+                 <img src="e2.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Perfect Rolling Cones<br><b style="padding-left: 10px;">(Natural)-Bongchie</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">3pack</b><br><b style="padding-left: 10px;color: gray;">Rs.45</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            </div>
+            <div class="col3">
+                 <img src="e3.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Preforated Wide Tips<br><b style="padding-left: 10px;">Roach-Raw</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;"></b>1pack(50 pieces)<br><br><b style="padding-left: 10px;color: gray;">Rs.50</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            </div>
+            <div class="col3">
+                 <img src="e4.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Ultimate Rolling Paper<br><b style="padding-left: 10px;">with Filter Tips &..</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">1pack (32 Leaves+32..)<br></b><br><b style="padding-left: 10px;color: gray;">Rs.80</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            </div>
+            <div class="col3">
+                 <img src="e5.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Ultimate Rolling Paper<br><b style="padding-left: 10px;">with Fliter Tips &..</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">1pack(32 Leaves+32..)<br></b><br><b style="padding-left: 10px;color: gray;">Rs.90</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            </div>
+            <div class="col3">
+                 <img src="e6.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Super Slim Brown<br><b style="padding-left: 10px;">Rolling Paper by Stash</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">1 Pack (32 pieces)<br></b><br><b style="padding-left: 10px;color: gray;">Rs.55</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            </div>
+         </div>
+         <div class="top4"><b>Snacks & Munchies</b></div>
+         <div class="left1">
+            <div class="col4">
+                <img src="f1.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Beanly Choco Hazelnut<br><b style="padding-left: 10px;">spread with Breadsticks</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">52g<br></b><br><b style="padding-left: 10px;color: gray;">Rs.52</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            </div>
+            <div class="col4">
+                <img src="f2.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Lo!Food Gluten Free<br><b style="padding-left: 10px;">Millet Ragi Chips..</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">75g<br></b><br><b style="padding-left: 10px;color: gray;">Rs.99</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            </div>
+            <div class="col4">
+                <img src="f3.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Protein Chef Baked<br><b style="padding-left: 10px;">Coated Peanuts(Masa...)</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">50g<br></b><br><b style="padding-left: 10px;color: gray;">Rs.65</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            </div>
+            <div class="col4">
+                <img src="f4.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Kab's Jackpot Cheese<br><b style="padding-left: 10px;">Balls</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">60g<br></b><br><b style="padding-left: 10px;color: gray;">Rs.60</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            </div>
+            <div class="col4">
+                <img src="f5.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Pringles Original Potato<br><b style="padding-left: 10px;">Chips</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">107g<br></b><br><b style="padding-left: 10px;color: gray;">Rs.91</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            </div>
+            <div class="col4">
+                <img src="f6.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Protein Chef Baked<br><b style="padding-left: 10px;">Bikaneri Bhujia sev...</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">80g<br></b><br><b style="padding-left: 10px;color: gray;">Rs.99</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            </div>
+         </div>
+         <div class="top6"><b>Hookah</b></div>
+         <div class="left2">
+            <div class="col5">
+                <img src="g1.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Premium Magic Coal By<br><b style="padding-left: 10px;">Stash pro...</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">1 pack (10 pieces)<br></b><br><b style="padding-left: 10px;color: gray;">Rs.80</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            </div>
+            <div class="col5">
+                <img src="g2.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Coconut Hookah Coal<br><b style="padding-left: 10px;">Cubes by Stash pro</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">250g<br></b><br><b style="padding-left: 10px;color: gray;">Rs.160</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            </div>
+            <div class="col5">
+                <img src="g3.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Brain Freeze Up Herbal<br><b style="padding-left: 10px;">Hookah Flavor..</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">50g<br></b><br><b style="padding-left: 10px;color: gray;">Rs.100</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            </div>
+            <div class="col5">
+                <img src="g4.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Brain Frodter Hookah<br><b style="padding-left: 10px;">Flavor(Tobacco Free)...</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">1 unit<br></b><br><b style="padding-left: 10px;color: gray;">Rs.100</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            </div>
+            <div class="col5">
+                <img src="g5.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Coconut Hookah Coal<br><b style="padding-left: 10px;">by Bongchie</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">250 g<br></b><br><b style="padding-left: 10px;color: gray;">Rs.125</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            </div>
+            <div class="col5">
+                <img src="g6.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Indie Paan Hookah<br><b style="padding-left: 10px;">Flavor(Tobacco Free)..</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">1 unit<br></b><br><b style="padding-left: 10px;color: gray;">Rs.100</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            </div>
+         </div>
+         <div class="top7"><b>Mouth fresheners</b></div>
+         <div class="left3">
+            <div class="col6">
+                <img src="h1.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Chandan Elaichi Saunf<br><b style="padding-left: 10px;">Mouth Freshener</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">100 g<br></b><br><b style="padding-left: 10px;color: gray;">Rs.45</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            </div>
+            <div class="col6">
+                <img src="h2.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Chandan Mint Saunf<br><b style="padding-left: 10px;">Mouth Freshener</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">100 g<br></b><br><b style="padding-left: 10px;color: gray;">Rs.50</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            </div>
+            <div class="col6">
+                <img src="h3.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Spraymintt Icymint<br><b style="padding-left: 10px;">Mouth Freshener</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">15 g<br></b><br><b style="padding-left: 10px;color: gray;">Rs.99</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            </div>
+            <div class="col6">
+                <img src="h4.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;"><br>Pass Pass Frutti mix<b style="padding-left: 10px;"></b>Mouth Freshener<br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">105 g<br></b><br><b style="padding-left: 10px;color: gray;">Rs.63</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            </div>
+            <div class="col6">
+                <img src="h5.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;"><br>Chandan Jeera Goli<b style="padding-left: 10px;"></b>Digestive Tablete<br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">100 g<br></b><br><b style="padding-left: 10px;color: gray;">Rs.45</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            </div>
+            <div class="col6">
+                <img src="g6.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Chandan Anardana<br><b style="padding-left: 10px;">Punch Mouth Freshener</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">170g<br></b><br><b style="padding-left: 10px;color: gray;">Rs.117</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            </div>
+         </div>
+          <div class="top8"><b>Cold Drinks & Juices</b></div>
+         <div class="left4">
+            <div class="col7">
+                <img src="i1.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Thums Up Soft Drink<br><b style="padding-left: 10px;">(750 ml)</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">750 ml<br></b><br><b style="padding-left: 10px;color: gray;">Rs.39</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            </div>
+            <div class="col7">
+                <img src="i2.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Coca-Cola Diet Coke<br><b style="padding-left: 10px;">Soft Drink</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">300 ml<br></b><br><b style="padding-left: 10px;color: gray;">Rs.40</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            </div>
+            <div class="col7">
+                <img src="i3.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Amul Unsalted<br><b style="padding-left: 10px;">Buttermilk</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">440 ml<br></b><br><b style="padding-left: 10px;color: gray;">Rs.15</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            </div>
+            <div class="col7">
+                <img src="i4.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Amul Probiotic Masala<br><b style="padding-left: 10px;">Salted Buttermilk</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">280 ml<br></b><br><b style="padding-left: 10px;color: gray;">Rs.10</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            </div>
+            <div class="col7">
+                <img src="i5.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Bisleri Packeged<br><b style="padding-left: 10px;">Water</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">5 ltr<br></b><br><b style="padding-left: 10px;color: gray;">Rs.67</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            </div>
+            <div class="col7">
+                <img src="i6.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Coca-Cola Soft Drink<br><b style="padding-left: 10px;">(750 ml)</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">750 ml<br></b><br><b style="padding-left: 10px;color: gray;">Rs.40</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            </div>
+         </div>
+         <div class="top9"><b>Candies & Gums</b></div>
+         <div class="left5">
+            <div class="col8">
+               <img src="j1.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Happydent Wave<br><b style="padding-left: 10px;">Sugerfree Mint Chewin...</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;"><br></b>28.9 g<br><b style="padding-left: 10px;color: gray;">Rs.42</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            
+            </div>
+            <div class="col8">
+                <img src="j2.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Chupa Chups sour Bites<br><b style="padding-left: 10px;">Mixed Fruit Candy</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">61.6g<br></b><br><b style="padding-left: 10px;color: gray;">Rs.34</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            
+            </div>
+            <div class="col8">
+                <img src="j3.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Parle Poppins<br><b style="padding-left: 10px;">Candy</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">100 g<br></b><br><b style="padding-left: 10px;color: gray;">Rs.24</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+           
+            </div>
+            <div class="col8">
+                <img src="j4.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Pulse Kachcha Aam/<br><b style="padding-left: 10px;">Mange Candy</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">190 g<br></b><br><b style="padding-left: 10px;color: gray;">Rs.52</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            
+            </div>
+            <div class="col8">
+                <img src="j5.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Alpenliebe Grande with <br><b style="padding-left: 10px;">Choco Delight Toffee..</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">120 g<br></b><br><b style="padding-left: 10px;color: gray;">Rs.42</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+           
+            </div>
+            <div class="col8">
+                <img src="j6.jpg" alt=""style="height:200px; width: 200px;">
+            <b style="padding-left: 10px;">Alpenliebe Juzt jelly-<br><b style="padding-left: 10px;">Strawbery Flavour..</b><br><b style="padding-left: 10px;"></b></b><br><b style=" padding-left: 10px; color: gray;">140 g<br></b><br><b style="padding-left: 10px;color: gray;">Rs.45</b>
+            <button style="border: 3px solid green; border-radius:5px; height:30px;width: 60px;margin-left: 80px;">Add</button>
+            </div>
+            </div>
+         <div class="one">
+            <h2>Useful Links</h2>
+            <p style="padding: 0px; margin: 0px;">Blog<br>
+                Privacy
+                Terms
+                Faqs
+                Security
+                Contact
+                Partner
+                Franchise
+                Seller
+                Warehouse
+                Deliver
+                Resources
+                Recipes
+                Bistro
+                District
+            </p>
+            
+         </div>
+    </div>
+</body>
+</html>
