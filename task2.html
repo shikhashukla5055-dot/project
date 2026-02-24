@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #calc{
+            background-color: grey;
+            height: 500px;
+            
+            width: 300px;
+            border: black;
+            border-radius: 10px;
+            padding: 20px;
+            box-sizing: border-box;
+            
+
+        }
+        .txt{
+            background-color: white;
+            resize: none;
+            height: 40px;
+            width: 260px;
+            font-size: 20px;
+            text-align: right;
+            padding: 20px;
+            box-sizing: border-box;
+            border: 2px solid black;
+            border-bottom: none;
+            
+            
+        }
+        .btn{
+            height: 50px;
+        
+            width: 260px;
+            margin-bottom: 20px;
+
+        }
+        .btn1{
+            height: 50px;
+            width: 120px;
+            border: 2px solid black;
+            float: left;
+            margin: 3.4px;
+            margin-top: 10px;
+            border-radius: 5px;
+            font-size: 20px;
+            font-weight: 300;
+            text-align: center;
+            line-height: 50px;
+        }
+        .row{
+            height: 50px;
+            width: 260px;
+
+        }
+        .col{
+            border: 2px solid black;
+            height: 50px;
+            width: 50px;
+            float: left;
+            margin: 5px;
+            background-color: white;
+            font-size: 20px;
+            text-align: center;
+            line-height: 50px;
+            border-radius: 5px ;
+        }
+    </style>
+</head>
+<body>
+    <div id="calc">
+        <div class="txt">260+10=</div>
+        <div style="font-size: 40px; height: 80px; border: 2px solid black; border-top: none;" class="txt">270</div>
+        <div class="btn">
+            <div style="background-color: orangered;" class="btn1">CLEAR</div>
+            <div style="background-color: blueviolet;" class="btn1">DELETE</div>
+        </div>
+        <div class="row">
+            <div class="col">7</div>
+            <div class="col">8</div>
+            <div class="col">9</div>
+            <div class="col">÷</div>
+
+        </div>
+        <div class="row">
+            <div class="col">4</div>
+            <div class="col">5</div>
+            <div class="col">6</div>
+            <div class="col">×</div>
+
+        </div>
+        <div class="row">
+            <div class="col">1</div>
+            <div class="col">2</div>
+            <div class="col">3</div>
+            <div class="col">-</div>
+
+        </div>
+        <div class="row">
+            <div class="col">.</div>
+            <div class="col">0</div>
+            <div class="col">=</div>
+            <div class="col">+</div>
+
+        </div>
+    </div>
+</body>
+</html>

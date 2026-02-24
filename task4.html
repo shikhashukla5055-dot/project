@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #outer{
+            border: 2px solid black;
+            height: 860px;
+            width: 850px;
+            padding: 2px;
+            box-sizing: border-box;
+        }
+        #main{
+            border: 2px solid black;
+            height: 842px;
+            width: auto;
+        }
+        .section1{
+            height: 340px;
+            width: auto;
+        }
+        .left{
+            height: 340px;
+            width: 343px;
+            background-color: blue;
+            float: left;
+            border: 2px solid black;
+            padding: 50px;
+            box-sizing: border-box;
+            border: none;
+        }
+        .section2{
+            height: 160px;
+            width: auto;
+            border: 2px solid black;
+            border: none;
+            
+        }
+        .middlephase{
+            background-color: orchid;
+            height: 160px;
+            width: 343px;
+            border: 2px solid black;
+            float: left;
+            border: none;
+        }
+        .middlephase1{
+            border-bottom: 2px solid black;
+            height: 53.3px;
+        }
+        .middlephasebox{
+            border-right: 2px solid black;
+            height: 160px;
+            width: 50px;
+            float: left;
+        }
+        .line{
+            border: 2px solid black;
+            height: 340px;
+            width: 150px;
+            float: left;
+            background-color: aqua;
+            border: none;
+        }
+        .box{
+            float: left;
+            height: 340px;
+            width: 50px;
+            border-right: 2px solid black
+
+        }
+        .horizontal{
+            border-bottom: 2px solid black;
+            height: 55px;
+            width: 150px;
+            
+    }
+        .innerbox{
+            border: 2px solid black;
+            height: 240px;
+            width: 240px;
+         background-color: white;
+
+        }
+        .innerboxa{
+            height: 120px;
+            width: 240px;
+        }
+        .innerboxa1{
+            background-color: blue;
+            height: 55px;
+            width: 65px;
+            float: left;
+            padding: 25px;
+            box-sizing: border-box;
+            margin: 25px ; 
+        }
+        .center{
+            float: left;
+            height: 160px;
+            width: 150px;
+            background-color: black;
+            color: white;
+            line-height: 160px;
+            font-weight: bolder;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <div id="main">
+            <div class="section1">
+                <div class="left">
+                    <div class="innerbox">
+                        <div class="innerboxa">
+                            <div class="innerboxa1"></div>
+                            <div class="innerboxa1"></div>
+                        </div>
+                        <div class="innerboxa">
+                            <div class="innerboxa1"></div>
+                            <div class="innerboxa1"></div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                <div class="middle">
+                    <div class="line">
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div style="border: none;" class="box"></div>
+                        <div class="horizontal"></div>
+                        <div class="horizontal"></div>
+                        <div class="horizontal"></div>
+                        <div class="horizontal"></div>
+                        <div class="horizontal"></div>
+                        <div style="border: none;"  class="horizontal"></div>
+
+                    </div>
+                </div>
+                <div style="background-color: red;" class="left">
+                    <div class="innerbox">
+                        <div class="innerboxa">
+                            <div style="background-color: red;" class="innerboxa1"></div>
+                            <div style="background-color: red;" class="innerboxa1"></div>
+
+                        </div>
+                        <div class="innerboxa">
+                            <div style="background-color: red;" class="innerboxa1"></div>
+                            <div style="background-color: red;" class="innerboxa1"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section2">
+                <div class="middlephase">
+                    <div class="middlephase1"></div>
+                    <div class="middlephase1"></div>
+                    <div style="border-bottom: none;" class="middlephase1"></div>
+                </div>
+                <div class="center">Home</div>
+                <div class="middlephase">
+                    <div class="middlephase1"></div>
+                    <div class="middlephase1"></div>
+                    <div style="border-bottom: none;" class="middlephase1"></div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="section1">
+                <div style="background-color: yellow;" class="left">
+                    <div class="innerbox">
+                        <div class="innerboxa">
+                            <div style="background-color: yellow;" class="innerboxa1"></div>
+                            <div style="background-color: yellow;" class="innerboxa1"></div>
+                        </div>
+                        <div class="innerboxa">
+                            <div style="background-color: yellow;" class="innerboxa1"></div>
+                            <div style="background-color: yellow;" class="innerboxa1"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="middle">
+                    <div class="line">
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div style="border: none;" class="box"></div>
+                        <div class="horizontal"></div>
+                        <div class="horizontal"></div>
+                        <div class="horizontal"></div>
+                        <div class="horizontal"></div>
+                        <div class="horizontal"></div>
+                        <div style="border: none;"  class="horizontal"></div>
+                    </div>
+                </div> 
+                <div style="background-color: green;" class="left">
+                    <div class="innerbox">
+                        <div class="innerboxa">
+                            <div style="background-color: green;" class="innerboxa1"></div>
+                            <div style="background-color: green;" class="innerboxa1"></div>
+                        </div>
+                        <div class="innerboxa">
+                            <div style="background-color: green;" class="innerboxa1"></div>
+                            <div style="background-color: green;" class="innerboxa1"></div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    
+</body>
+</html>
