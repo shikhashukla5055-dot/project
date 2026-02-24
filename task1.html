@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: black;
+            
+        }
+        #inner{
+            background-color: grey;
+            height: 400px;
+            width: 800px;
+            margin: 100px auto;
+
+        }
+        .row{
+            width: 800px;
+            height: 200px;
+            
+
+        }
+        .col{
+            width: 198px;
+            height: 199px;
+            background-color: rgb(33, 40, 40);
+            float: left;
+            border: 1px solid rgb(61, 59, 59);
+            position: relative;
+            
+            
+            
+            
+            
+            
+        }
+        
+        .a1{
+            height: 50px;
+            width: 50px;
+            margin: 70px auto;
+            border-radius: 50px ;
+            border: 2px solid black;
+            border-top: 2px solid rgb(30, 109, 107);
+            animation-name: abc;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            
+
+        }
+
+        @keyframes abc{
+            
+                 0%{
+                    transform: rotate(0deg);
+                }
+                100%{
+                   transform: rotate(360deg);
+                }
+
+        }
+        
+        .a2{
+            height: 50px;
+            width: 50px;
+            margin: 70px auto;
+            border-radius: 50px ;
+            border: 2px solid black;
+            border-top: 2px solid rgb(30, 109, 107);
+            animation-name: pqr;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+
+        }
+
+        @keyframes pqr{
+            
+                 0%{
+                    transform: rotate(0deg);
+                }
+                100%{
+                   transform: rotate(-360deg);
+                }
+
+        }
+
+        
+        
+
+        @keyframes abc{
+            
+                 0%{
+                    transform: rotate(0deg);
+                }
+                100%{
+                   transform: rotate(360deg);
+                }
+
+        }
+        
+        .a6{
+            height: 50px;
+            width: 50px;
+            margin: 70px auto;
+            border-radius: 50px ;
+            border: 2px solid black;
+            border-top: 2px solid rgb(30, 109, 107);
+            border-bottom: 2px solid rgb(30, 109, 107);
+            animation-name: xyz;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+
+        }
+
+        @keyframes xyz{
+            
+                 0%{
+                    transform: rotate(0deg);
+                }
+                100%{
+                   transform: rotate(360deg);
+                }
+
+        }
+        
+        .a8{
+            height: 50px;
+            width: 50px;
+            border-radius: 50px ;
+            margin: 70px auto;
+            border: 2px solid black;
+            border-top: 2px solid rgb(30, 109, 107);
+            border-right: 2px solid rgb(30, 109, 107);
+            animation-name: xyz;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+
+        }
+
+        @keyframes xyz{
+            
+                 0%{
+                    transform: rotate(0deg);
+                }
+                100%{
+                   transform: rotate(360deg);
+                }
+
+        }
+        
+        .a10{
+            height: 60px;
+            width: 60px;
+            border-radius: 60px ;
+            margin: 70px auto;
+            border: 2px solid black;
+            border-top: 2px solid rgb(30, 109, 107);
+            border-right: 2px solid rgb(30, 109, 107);
+            animation-name: xyz;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            padding: 5px;
+            box-sizing: border-box;
+
+        }
+        .a11{
+            height: 40px;
+            width: 40px;
+            border-radius: 40px;
+            border: 2px solid black;
+            border-top: 2px solid rgb(30, 109, 107);
+            border-right: 2px solid rgb(30, 109, 107);
+
+        }
+
+        @keyframes xyz{
+            
+                 0%{
+                    transform: rotate(0deg);
+                }
+                100%{
+                   transform: rotate(360deg);
+                }
+
+        }
+        
+        .a13{
+            height: 60px;
+            width: 60px;
+            border-radius: 60px ;
+            margin: 70px auto;
+            border: 2px solid black;
+            border-top: 2px solid rgb(30, 109, 107);
+            border-bottom: 2px solid rgb(30, 109, 107);
+            animation-name: xyz;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            padding: 5px;
+            box-sizing: border-box;
+
+        }
+
+        
+        .a14{
+            height: 40px;
+            width: 40px;
+            border-radius: 40px;
+            border: 2px solid black;
+            border-top: 2px solid rgb(30, 109, 107);
+            border-bottom: 2px solid rgb(30, 109, 107);
+
+        }
+
+        @keyframes tuv{
+            
+                 0%{
+                    transform: rotate(0deg);
+                }
+                100%{
+                   transform: rotate(360deg);
+                }
+
+        }
+
+        
+        .a16{
+            height: 60px;
+            width: 60px;
+            border-radius: 60px ;
+            border: 2px solid black;
+            margin: 70px auto;
+            
+            border-bottom: 2px solid orangered;
+            animation-name: tuv;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            padding: 2px;
+            box-sizing: border-box;
+
+        }
+
+        
+        .a17{
+            height: 52px;
+            width: 52px;
+            border-radius: 52px;
+            border: 2px solid black;
+            
+            border-right: 2px solid orange;
+            padding: 2px;
+            box-sizing: border-box;
+            animation-name: tuv;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+
+        }
+        .a18{
+            height: 40px;
+            width: 40px;
+            border-radius: 44px;
+            border:2px solid black;
+            border-top: 2px solid yellow;
+            animation-name: tuv;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes tuv{
+            
+                 0%{
+                    transform: rotate(0deg);
+                }
+                100%{
+                   transform: rotate(360deg);
+                }
+
+        }
+
+
+        
+        .a20{
+            height: 60px;
+            width: 60px;
+            border-radius: 60px ;
+            border: 2px solid black;
+            border-top: 2px solid orangered;
+            margin: 70px auto;
+            
+            animation-name: xyz;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            padding: 5px;
+            box-sizing: border-box;
+
+        }
+
+        
+        .a21{
+            height: 40px;
+            width: 40px;
+            border-radius: 40px;
+            border: 2px solid black;
+            border-top: 2px solid rgb(30, 109, 107);
+            
+
+        }
+
+        @keyframes tuv{
+            
+                 0%{
+                    transform: rotate(0deg);
+                }
+                100%{
+                   transform: rotate(360deg);
+                }
+
+        }
+        
+           
+
+
+            
+            
+
+            
+
+
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <div id="inner">
+            <div class="row">
+                <div class="col">
+                    <div class="a1">
+                       
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="a2">
+                        
+                    </div>
+
+                </div>
+                <div class="col">
+                    
+                    <div class="a6"></div>
+                </div>
+                <div class="col">
+                    
+                    <div class="a8"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    
+                    <div class="a10">
+                        <div class="a11"></div>
+
+                    </div>
+                </div>
+                    
+                <div class="col">
+                    <div class="a13">
+                        <div class="a14"></div>
+                    </div>
+        
+                </div>
+                
+                <div class="col">
+                    
+                    <div class="a16">
+                        <div class="a17">
+                            <div class="a18"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    
+                    <div class="a20">
+                        <div class="a21"></div>
+                    </div>
+                </div>
+                
+            
+        </div>
+    </div>
+</body>
+</html>
